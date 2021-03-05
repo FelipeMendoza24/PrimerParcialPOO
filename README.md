@@ -23,6 +23,8 @@ Presente el mapa de memoria correspondiente a:
 1. *Lisa* curso con éxito *Programación Básica*. 
 2. *Moe* pertenece al proyecto *Monorriel* y actúa como líder de este proyecto cuyo objetivo es *Mejorar la movilidad de la ciudad*.
 
+<a href="https://ibb.co/WVQw8sZ"><img src="https://i.ibb.co/mNmwZSk/image.png" alt="image" border="0"></a>
+
 ## II. (35%) CÓDIGO
 
 * Estudie el diagrama de secuencia, las especificaciones de los métodos y la documentación del API Java.
