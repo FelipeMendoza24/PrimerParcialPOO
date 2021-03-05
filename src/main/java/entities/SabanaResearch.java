@@ -8,6 +8,7 @@ public class SabanaResearch {
 
     private List<Group> groups;
     private List<Summary> summaries;
+    private Object LocalDate;
 
     public SabanaResearch(List<Group> groups) {
         this.groups = groups;
@@ -29,6 +30,13 @@ public class SabanaResearch {
      * @return The new Summary entry.
      */
     public Summary createSummaryEntry() {
-        return null;
+        int ap = 0;
+        Summary result = null;
+        for (Group g: this.groups){
+            ap += g.countActiveProjects();
+        }
+        result = new Summary(LocalDate, ap);
+        return result;
     }
+
 }
