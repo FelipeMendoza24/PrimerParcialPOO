@@ -23,6 +23,8 @@ Presente el mapa de memoria correspondiente a:
 1. *Lisa* curso con éxito *Programación Básica*. 
 2. *Moe* pertenece al proyecto *Monorriel* y actúa como líder de este proyecto cuyo objetivo es *Mejorar la movilidad de la ciudad*.
 
+<a href="https://ibb.co/WVQw8sZ"><img src="https://i.ibb.co/mNmwZSk/image.png" alt="image" border="0"></a>
+
 ## II. (35%) CÓDIGO
 
 * Estudie el diagrama de secuencia, las especificaciones de los métodos y la documentación del API Java.
@@ -38,8 +40,14 @@ Diseñe un método de la clase EciGrupos (especificación y diagrama de secuenci
 
 ## IV. (20%) Conceptos
 
-1. ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?
-2. ¿Qué es ocultación de información? ¿Por qué aplicarla? ¿Cómo se implementa en Java?
+### 1. ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?
+#### Respuesta:
+* **El encapulamiento es cuando se limita el acceso a las variables/atributos de una clase, con el fin de controlar quien tiene acceso a ella desde otra clase. Con los setters y getters de cada variable, logramos hacer este encapsulamiento. Esto ofrece multiples ventajas, una de estas es, como lo dije anteriormente, limitar el acceso a las variables de un objeto, para evitar cambios o daños a esta clase. Al privatizar algunos atributos, nos permite hacer cambios sin alterar el modo en como los usuarios utilizan el código.**
+
+### 2. ¿Qué es ocultación de información? ¿Por qué aplicarla? ¿Cómo se implementa en Java?
+
+#### Respuesta:
+* **La ocultación de informacion es aislamiento de un objeto, con el fin de proteger las propiedades de este, ya que cada uno de estos tiene funciones definidas para modificarlos, de esta manera quien no tenga estas funciones, no puede modificarlo y asi se protege. Se debe aplicar para evitar futuros problemas ya que este objeto no puede cambiar de forma inesperada, lo que causaria errores en el programa. A traves del nivel de acceso privado para el atributo, y crando getter y setter para este, ya que estas son como las llaves de acceso para poder interactuar con el.**
 
 ## V. (20%) Bono
 
