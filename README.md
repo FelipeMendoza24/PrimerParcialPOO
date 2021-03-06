@@ -40,6 +40,7 @@ Diseñe un método de la clase EciGrupos (especificación y diagrama de secuenci
 
 <a href="https://ibb.co/Jj3TMxz"><img src="https://i.ibb.co/gZ48BvD/sequence-diagram-1.png" alt="sequence-diagram-1" border="0"></a>
 
+
 ## IV. (20%) Conceptos
 
 ### 1. ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?
