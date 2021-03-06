@@ -21,4 +21,12 @@ public class Iteration {
         this.activities.add(activity);
     }
 
+    public boolean isActive() {
+        boolean oa = false;
+        for (Activity a:this.activities){
+            if (a.isActive == true)
+                oa = true;
+        }
+        return oa;
+    }
 }

@@ -42,7 +42,8 @@ public class Project {
     public boolean isActive() {
         boolean oa = false;
         for (Iteration i:this.iterations){
-            oa = i.addActivity(Activity );
+            if (i.isActive == true)
+            oa = true;
         }
         return oa;
     }
